@@ -1,0 +1,34 @@
+{
+  "name": "holo",
+  "version": "1.0.0",
+  "description": "Holo is a Discord bot that logs emoji usage for analysis.",
+  "engines": {
+    "node": "8.9.4"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "firebase-admin": "^5.12.0",
+    "node-emoji": "^1.8.1"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterthehan/holo.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "emoji",
+    "statistics",
+    "analysis"
+  ],
+  "author": "Peter Han",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/peterthehan/holo/issues"
+  },
+  "homepage": "https://github.com/peterthehan/holo#readme",
+  "main": "index.js"
+}
